@@ -1,4 +1,4 @@
-package com.navin.configuration;
+package configuration;
 
 import jakarta.servlet.ServletContext;
 import jakarta.servlet.ServletRegistration;

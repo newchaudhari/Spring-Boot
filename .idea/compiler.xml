@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="Spring_mvc-java-configuration-02" />
+        <module name="Spring_mvc-01" />
+        <module name="spring-mvc-read-write-data-to-server-03" />
+        <module name="spring-boot-rest-03" />
+        <module name="spring-boot-data-jpa-02" />
+        <module name="spring-mvc-04" />
+        <module name="spring-boot-01" />
+        <module name="spring-basic-security" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="user-location-problem.main" target="20" />
+      <module name="user-location-problem.test" target="20" />
+    </bytecodeTargetLevel>
+  </component>
+  <component name="JavacSettings">
+    <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="spring-basic-security" options="-parameters" />
+      <module name="spring-boot-01" options="-parameters" />
+      <module name="spring-boot-data-jpa-02" options="-parameters" />
+      <module name="spring-boot-rest-03" options="-parameters" />
+    </option>
+  </component>
+</project>
